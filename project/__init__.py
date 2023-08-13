@@ -6,7 +6,7 @@ from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 
 from project.celery_utils import make_celery  # new
-from project.config import config
+from config import config
 
 
 # instantiate the extensions

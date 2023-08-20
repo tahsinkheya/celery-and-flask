@@ -1,6 +1,8 @@
 from celery import shared_task
 from celery.signals import task_postrun
+from celery.utils.log import get_task_logger
 
+logger = get_task_logger(__name__)
 @shared_task
 def divide(x, y):
     from celery.contrib import rdb
@@ -32,3 +34,7 @@ def task_process_notification(self):
 def task_postrun_handler(task_id, **kwargs):
     from project.users.events import update_celery_task_status
     update_celery_task_status(task_id)
+
+@shared_task(name='task_schedule_work')
+def task_schedule_work():
+    logger.info('task_schedule_work run')

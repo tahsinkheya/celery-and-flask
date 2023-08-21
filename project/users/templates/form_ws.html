@@ -42,9 +42,9 @@
       });
       socket.on('status', function (res) {
         const taskStatus = res.state;
-  
+        console.log(taskStatus)
         if (['SUCCESS', 'FAILURE'].includes(taskStatus)) {
-            console.log("here")
+          console.log("here")
           const msg = yourForm.querySelector('#messages');
           const submitBtn = yourForm.querySelector('button[type="submit"]');
   
@@ -87,7 +87,7 @@
         const spinnerHtml = 'Processing...';
         submitBtn.disabled = true;
         submitBtn.innerHTML = spinnerHtml;
-  
+       
         const msg = yourForm.querySelector('#messages');
         msg.innerHTML = '';
   

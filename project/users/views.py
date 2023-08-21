@@ -10,7 +10,8 @@ from celery import shared_task
 from celery.utils.log import get_task_logger
 from project import csrf, db
 from project.users.models import User
-from project.users.tasks import sample_task, task_process_notification,task_send_welcome_email
+from bs4 import BeautifulSoup
+from project.users.tasks import sample_task, task_process_notification,task_send_welcome_email, summation, find_title
 logger = get_task_logger(__name__)
 
 def api_call(email):
@@ -21,11 +22,39 @@ def api_call(email):
     # used for simulating a call to a third-party api
     requests.post('https://httpbin.org/delay/5')
 
+# @users_blueprint.route('/form/', methods=('GET', 'POST'))
+# def subscribe():
+#     form = YourForm()
+#     if form.validate_on_submit():
+#         task = sample_task.delay(form.email.data)
+#         return jsonify({
+#             'task_id': task.task_id,
+#         })
+#     return render_template('form.html', form=form)
+
+# @users_blueprint.route('/form/', methods=('GET', 'POST'))
+# def subscribe():
+#     form = YourForm()
+#     num1=form.email.data
+#     num2=form.username.data
+#     current_app.logger.info(num2)
+
+#     if form.validate_on_submit():
+#         task = summation.delay(num1,num2)
+#         return jsonify({
+#             'task_id': task.task_id,
+#         })
+#     return render_template('form.html', form=form)
+
 @users_blueprint.route('/form/', methods=('GET', 'POST'))
 def subscribe():
     form = YourForm()
+    num1=form.email.data
+    url=form.username.data
+    current_app.logger.info(url)
+
     if form.validate_on_submit():
-        task = sample_task.delay(form.email.data)
+        task = find_title.delay(url)
         return jsonify({
             'task_id': task.task_id,
         })
@@ -34,7 +63,7 @@ def subscribe():
 @users_blueprint.route('/task_status/', methods=('GET', 'POST'))
 def task_status():
     task_id = request.args.get('task_id')
-
+    current_app.logger.info(task_id)
     if task_id:
         task = AsyncResult(task_id)
         state = task.state
@@ -48,6 +77,7 @@ def task_status():
         else:
             response = {
                 'state': state,
+                "result":task.result if task.result else "None" 
             }
         return jsonify(response)
 

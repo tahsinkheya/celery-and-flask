@@ -33,19 +33,21 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
     function updateProgress(yourForm, task_id, btnHtml) {
+      console.log("hi ther")
       fetch(`/users/task_status/?task_id=${task_id}`, {
         method: 'GET',
       })
         .then(response => response.json())
         .then((res) => {
+          console.log(res)
           const taskStatus = res.state;
-  
+          console.log(res)
           if (['SUCCESS', 'FAILURE'].includes(taskStatus)) {
             const msg = yourForm.querySelector('#messages');
             const submitBtn = yourForm.querySelector('button[type="submit"]');
   
             if (taskStatus === 'SUCCESS') {
-              msg.innerHTML = 'job succeeded';
+              msg.innerHTML = res.result;
             } else if (taskStatus === 'FAILURE') {
               // display error message on the form
               msg.innerHTML = res.error;
@@ -98,6 +100,7 @@
         let data = new FormData(yourForm);
         // Convert to an object
         let formData = serialize(data);
+        console.log("---------------------------------------2--")
   
         fetch('/users/form/', {
           method: 'POST',
@@ -112,6 +115,7 @@
             // after we get Celery task id, we start polling
             const task_id = res.task_id;
             updateProgress(yourForm, task_id, btnHtml);
+            console.log("-----------------------------------------")
             console.log(res);
           })
           .catch((error) => {

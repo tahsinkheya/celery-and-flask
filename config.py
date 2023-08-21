@@ -32,6 +32,13 @@ class BaseConfig:
     #     },
     # }
 
+    CELERY_BEAT_SCHEDULE = {
+        'task-schedule-work': {
+            'task': 'task_schedule_work',
+            "schedule": 5.0,  # five seconds
+        },
+    }
+
     CELERY_TASK_DEFAULT_QUEUE = 'default'
 
     # Force all queues to be explicitly listed in `CELERY_TASK_QUEUES` to help prevent typos
@@ -40,7 +47,6 @@ class BaseConfig:
     CELERY_TASK_QUEUES = (
         # need to define default queue here or exception would be raised
         Queue('default'),
-
         Queue('high_priority'),
         Queue('low_priority'),
     )

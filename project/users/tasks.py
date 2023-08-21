@@ -2,7 +2,16 @@ from celery import shared_task
 from celery.signals import task_postrun
 from celery.utils.log import get_task_logger
 import random
+import requests
+
 logger = get_task_logger(__name__)
+
+@shared_task
+def summation(x,y):
+    import time
+    time.sleep(5)
+    return x+y
+
 @shared_task
 def divide(x, y):
     from celery.contrib import rdb
@@ -16,7 +25,27 @@ def sample_task(email):
     from project.users.views import api_call
     api_call(email)
 
+@shared_task
+def find_title(url):
+    try:
+        # Send an HTTP GET request to the URL
+        response = requests.get(url)
+        response.raise_for_status()  # Raise an exception for unsuccessful requests
+        html_content = response.text
 
+        # Parse the HTML content using BeautifulSoup
+        soup = BeautifulSoup(html_content, 'html.parser')
+
+        # Extract the title tag
+        title_tag = soup.find('title')
+
+        if title_tag:
+            return title_tag.text.strip()
+        else:
+            return "Title not found"
+    
+    except requests.exceptions.RequestException as e:
+        return str(e)  # Return an error message if the request fails
 ## when using try/catch
 # @shared_task(bind=True)
 # def task_process_notification(self):

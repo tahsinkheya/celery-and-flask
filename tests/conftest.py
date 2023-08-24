@@ -2,8 +2,10 @@ import pytest
 from pytest_factoryboy import register
 from project import create_app, db as _db
 from project.users.factories import UserFactory
+from project.tdd.factories import MemberFactory
 
 register(UserFactory)
+register(MemberFactory)
 
 @pytest.fixture
 def app():

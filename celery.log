@@ -78,3 +78,496 @@
 [2023-08-21 09:16:13,730: INFO/MainProcess] mingle: all alone
 [2023-08-21 09:16:13,745: INFO/MainProcess] celery@ef0c5936e486 ready.
 [2023-08-21 09:16:16,916: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:25:43,988: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:25:43,988: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:25:44,397: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:25:44,399: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:25:45,409: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:25:45,434: INFO/MainProcess] celery@ef0c5936e486 ready.
+[2023-08-21 09:25:46,917: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:25:50,127: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:25:50,128: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:25:50,536: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:25:50,537: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:25:51,546: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:25:51,559: INFO/MainProcess] celery@ef0c5936e486 ready.
+[2023-08-21 09:25:51,917: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:27:31,295: INFO/MainProcess] beat: Starting...
+[2023-08-21 09:27:31,910: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:27:31,911: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:27:32,376: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:27:32,379: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:27:33,388: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:27:33,404: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:27:41,339: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:28:40,291: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:28:40,291: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:28:40,726: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:28:40,728: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:28:41,737: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:28:41,751: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:28:45,541: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:28:45,541: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:28:46,976: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:28:46,976: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:28:47,387: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:28:47,389: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:28:49,934: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:28:49,935: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:28:50,344: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:28:50,346: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:28:51,355: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:28:51,371: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:28:56,339: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:28:59,395: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:28:59,396: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:28:59,820: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:28:59,821: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:29:00,829: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:29:00,847: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:29:01,339: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:29:07,117: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:29:07,118: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:29:07,526: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:29:07,528: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:29:08,537: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:29:08,556: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:29:11,338: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:29:32,309: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:29:32,309: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:29:32,767: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:29:32,769: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:29:33,778: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:29:33,792: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:29:36,339: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:30:17,220: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:17,221: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:30:17,637: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:30:17,639: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:30:18,646: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:30:18,665: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:30:22,604: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:22,604: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:30:23,016: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:30:23,018: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:30:26,105: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:26,106: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:30:27,465: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:27,466: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:30:27,953: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:30:27,956: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:30:31,841: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:31,841: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:30:32,298: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:30:32,299: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:30:34,956: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:34,956: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:30:35,373: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:30:35,375: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:30:36,386: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:30:36,403: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:30:39,335: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:39,336: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:30:39,780: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:30:39,782: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:30:40,787: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:30:40,796: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:30:41,337: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:30:47,380: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:47,380: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:30:47,863: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:30:47,864: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:30:48,873: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:30:48,888: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:30:52,729: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:52,730: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:30:53,131: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:30:53,133: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:30:54,141: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:30:54,155: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:30:56,338: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:30:59,804: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:30:59,804: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:31:00,212: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:31:00,215: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:31:03,260: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:31:03,261: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:31:03,672: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:31:03,674: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:31:06,657: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:31:06,657: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:31:07,063: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:31:07,066: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:31:09,602: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:31:09,603: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:31:10,035: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:31:10,037: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:31:11,044: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:31:11,065: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:31:11,337: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:31:13,847: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:31:13,847: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:31:14,250: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:31:14,251: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:31:17,122: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:31:17,122: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:31:17,586: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:31:17,588: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:31:21,639: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:31:21,639: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:31:22,120: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:31:22,122: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:31:23,131: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:31:23,154: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:31:26,340: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:31:30,889: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:31:30,889: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:31:31,305: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:31:31,309: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:31:32,319: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:31:32,338: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:31:36,339: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:32:11,261: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:32:11,261: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:32:11,663: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:32:11,664: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:32:12,671: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:32:12,681: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:32:17,287: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:32:17,288: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:32:17,692: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:32:17,694: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:32:18,702: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:32:18,719: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:32:21,339: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:36:04,847: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:36:04,848: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:36:05,271: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:36:05,273: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:36:06,283: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:36:06,301: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:36:06,338: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:36:48,401: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:36:48,401: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:36:48,826: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:36:48,827: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:36:49,835: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:36:49,851: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:36:51,341: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:37:08,464: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:37:08,465: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:37:08,885: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:37:08,886: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:37:09,895: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:37:09,912: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:37:11,340: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:37:38,436: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:37:38,437: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:37:38,837: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:37:38,839: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:37:39,846: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:37:39,862: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:37:41,341: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 09:41:43,882: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-21 09:41:43,883: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-21 09:41:44,283: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-21 09:41:44,286: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-21 09:41:45,294: INFO/MainProcess] mingle: all alone
+[2023-08-21 09:41:45,311: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-21 09:41:46,338: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-21 11:02:07,350: WARNING/MainProcess] consumer: Connection to broker lost. Trying to re-establish the connection...
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 332, in start
+    blueprint.start(self)
+  File "/usr/local/lib/python3.9/site-packages/celery/bootsteps.py", line 116, in start
+    step.start(parent)
+  File "/usr/local/lib/python3.9/site-packages/celery/worker/consumer/consumer.py", line 628, in start
+    c.loop(*c.loop_args())
+  File "/usr/local/lib/python3.9/site-packages/celery/worker/loops.py", line 97, in asynloop
+    next(loop)
+  File "/usr/local/lib/python3.9/site-packages/kombu/asynchronous/hub.py", line 373, in create_loop
+    cb(*cbargs)
+  File "/usr/local/lib/python3.9/site-packages/kombu/transport/redis.py", line 1336, in on_readable
+    self.cycle.on_readable(fileno)
+  File "/usr/local/lib/python3.9/site-packages/kombu/transport/redis.py", line 566, in on_readable
+    chan.handlers[type]()
+  File "/usr/local/lib/python3.9/site-packages/kombu/transport/redis.py", line 910, in _receive
+    ret.append(self._receive_one(c))
+  File "/usr/local/lib/python3.9/site-packages/kombu/transport/redis.py", line 920, in _receive_one
+    response = c.parse_response()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 1531, in parse_response
+    response = self._execute(conn, try_read)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 1507, in _execute
+    return conn.retry.call_with_retry(
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 49, in call_with_retry
+    fail(error)
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 1509, in <lambda>
+    lambda error: self._disconnect_raise_connect(conn, error),
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 1496, in _disconnect_raise_connect
+    raise error
+  File "/usr/local/lib/python3.9/site-packages/redis/retry.py", line 46, in call_with_retry
+    return do()
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 1508, in <lambda>
+    lambda: command(*args, **kwargs),
+  File "/usr/local/lib/python3.9/site-packages/redis/client.py", line 1529, in try_read
+    return conn.read_response()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 812, in read_response
+    response = self._parser.read_response(disable_decoding=disable_decoding)
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 318, in read_response
+    raw = self._buffer.readline()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 249, in readline
+    self._read_from_socket()
+  File "/usr/local/lib/python3.9/site-packages/redis/connection.py", line 195, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+[2023-08-21 11:02:07,354: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/worker/consumer/consumer.py:367: CPendingDeprecationWarning: 
+In Celery 5.1 we introduced an optional breaking change which
+on connection loss cancels all currently executed tasks with late acknowledgement enabled.
+These tasks cannot be acknowledged as the connection is gone, and the tasks are automatically redelivered back to the queue.
+You can enable this behavior using the worker_cancel_long_running_tasks_on_connection_loss setting.
+In Celery 5.1 it is set to False by default. The setting will be set to True by default in Celery 6.0.
+
+  warnings.warn(CANCEL_TASKS_BY_DEFAULT, CPendingDeprecationWarning)
+
+[2023-08-21 11:02:07,357: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error 111 connecting to redis:6379. Connection refused..
+Trying again in 2.00 seconds... (1/100)
+
+[2023-08-21 11:02:09,381: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 4.00 seconds... (2/100)
+
+[2023-08-21 11:02:13,406: ERROR/MainProcess] consumer: Cannot connect to redis://redis:6379/0: Error -3 connecting to redis:6379. Temporary failure in name resolution..
+Trying again in 6.00 seconds... (3/100)
+
+[2023-08-24 05:28:30,357: INFO/MainProcess] beat: Starting...
+[2023-08-24 05:28:30,379: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-24 05:28:30,380: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-24 05:28:30,839: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-24 05:28:30,842: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-24 05:28:31,850: INFO/MainProcess] mingle: all alone
+[2023-08-24 05:28:31,866: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-24 05:28:39,920: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-24 05:29:21,493: INFO/MainProcess] Task project.users.tasks.task_test_logger[cf86dd4a-6c2b-4d06-9c35-5688f4ffb574] received
+[2023-08-24 05:29:21,500: INFO/ForkPoolWorker-7] Task project.users.tasks.task_test_logger[cf86dd4a-6c2b-4d06-9c35-5688f4ffb574] succeeded in 0.004557388000648643s: None
+[2023-08-24 06:39:37,441: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-24 06:39:37,441: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-24 06:39:37,923: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-24 06:39:37,925: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-24 06:39:38,933: INFO/MainProcess] mingle: all alone
+[2023-08-24 06:39:38,948: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-24 06:39:39,921: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-24 06:42:00,831: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-24 06:42:00,832: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-24 06:42:01,246: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-24 06:42:01,249: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-24 06:42:02,257: INFO/MainProcess] mingle: all alone
+[2023-08-24 06:42:02,270: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-24 06:42:04,921: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-24 06:42:11,647: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-24 06:42:11,648: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-24 06:42:12,136: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-24 06:42:12,138: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-24 06:42:13,146: INFO/MainProcess] mingle: all alone
+[2023-08-24 06:42:13,161: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-24 06:42:14,920: INFO/MainProcess] Events of group {task} enabled by remote.
+[2023-08-24 06:42:19,893: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/app/utils.py:204: CDeprecationWarning: 
+    The 'CELERY_RESULT_BACKEND' setting is deprecated and scheduled for removal in
+    version 6.0.0. Use the result_backend instead
+
+  deprecated.warn(description=f'The {setting!r} setting',
+
+[2023-08-24 06:42:19,893: WARNING/MainProcess] Please run `celery upgrade settings path/to/settings.py` to avoid these warnings and to allow a smoother upgrade to Celery 6.0.
+[2023-08-24 06:42:20,313: INFO/MainProcess] Connected to redis://redis:6379/0
+[2023-08-24 06:42:20,315: INFO/MainProcess] mingle: searching for neighbors
+[2023-08-24 06:42:21,322: INFO/MainProcess] mingle: all alone
+[2023-08-24 06:42:21,335: INFO/MainProcess] celery@d2d9c08658ee ready.
+[2023-08-24 06:42:24,918: INFO/MainProcess] Events of group {task} enabled by remote.

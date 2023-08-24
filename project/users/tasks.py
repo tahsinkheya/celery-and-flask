@@ -3,6 +3,7 @@ from celery.signals import task_postrun
 from celery.utils.log import get_task_logger
 from celery.signals import after_setup_logger
 import random
+import requests
 import logging
 from celery.signals import after_setup_logger
 logger = get_task_logger(__name__)
